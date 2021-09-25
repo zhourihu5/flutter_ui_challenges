@@ -46,7 +46,7 @@ class LoginSixPage extends StatelessWidget {
                   const EdgeInsets.symmetric(horizontal: 32, vertical: 8.0),
               child: TextField(
                 decoration: InputDecoration(
-                    labelText: "Email", hasFloatingPlaceholder: true),
+                    labelText: "Email", floatingLabelBehavior: FloatingLabelBehavior.auto),
               ),
             ),
             Padding(
@@ -55,7 +55,7 @@ class LoginSixPage extends StatelessWidget {
               child: TextField(
                 obscureText: true,
                 decoration: InputDecoration(
-                    labelText: "Password", hasFloatingPlaceholder: true),
+                    labelText: "Password", floatingLabelBehavior: FloatingLabelBehavior.auto),
               ),
             ),
             Container(

@@ -45,7 +45,7 @@ class SignupTwoPage extends StatelessWidget {
                   const EdgeInsets.symmetric(horizontal: 32, vertical: 8.0),
               child: TextField(
                 decoration: InputDecoration(
-                    labelText: "Email", hasFloatingPlaceholder: true),
+                    labelText: "Email", floatingLabelBehavior: FloatingLabelBehavior.auto),
               ),
             ),
             Padding(
@@ -54,7 +54,7 @@ class SignupTwoPage extends StatelessWidget {
               child: TextField(
                 obscureText: true,
                 decoration: InputDecoration(
-                    labelText: "Password", hasFloatingPlaceholder: true),
+                    labelText: "Password", floatingLabelBehavior: FloatingLabelBehavior.auto),
               ),
             ),
             Padding(
@@ -63,8 +63,7 @@ class SignupTwoPage extends StatelessWidget {
               child: TextField(
                 obscureText: true,
                 decoration: InputDecoration(
-                    labelText: "Confirm password",
-                    hasFloatingPlaceholder: true),
+                    labelText: "Confirm password", floatingLabelBehavior: FloatingLabelBehavior.auto),
               ),
             ),
             Padding(
